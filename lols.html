@@ -22,10 +22,16 @@
 			</g>
      
     </g>
-    
+    <!-- ---------------------- -->
+   <defs>
+    <pattern id="cir2" x="0" y="0" width="10" height="10"  >
+      <image xlink:href="mercury2.png" x="0" y="0" width="10" height="10">
+      </image>
+    </pattern>
+  </defs> 
   <g id="mercury">
       <circle cx=548 cy=253 r=80 style="stroke: #fff; fill: transparent;"/>
-      <circle cx=627 cy=253 r=5 fill="red"/>
+      <circle cx=627 cy=253 r=5 style="fill: url(#cir2);"/>
       <animateTransform
 					attributeName="transform"
 					begin="0s"
@@ -37,10 +43,16 @@
 				/>
   </g>
     
-    
+   <!-- ---------------------- --> 
+    <defs>
+    <pattern id="cir3" x="0" y="0" width="30" height="30"  >
+      <image xlink:href="wenus.png" x="0" y="0" width="30" height="30">
+      </image>
+    </pattern>
+  </defs>
     <g id="venus">
 				<circle cx=550 cy=250 r=120 style="stroke: #fff; fill: transparent;" />
-				<circle cx=670 cy=253 r=15 fill="purple" />
+				<circle cx=670 cy=253 r=15 style="fill: url(#cir3);" />
 				<animateTransform
 					attributeName="transform"
 					begin="0s"
@@ -52,11 +64,16 @@
 				/>
 
     </g>
-    
-    
+    <!-- ---------------------- --> 
+    <defs>
+    <pattern id="cir4" x="0" y="0" width="30" height="30"  >
+      <image xlink:href="ziemia.png" x="0" y="0" width="30" height="30">
+      </image>
+    </pattern>
+  </defs>
     <g id="earth">
 				<circle cx=550 cy=250 r=180 style="stroke: #fff; fill: transparent;"/>
-				<circle cx=730 cy=253 r=15 fill="green"/>
+				<circle cx=730 cy=253 r=15 style="fill: url(#cir4);"/>
 				<animateTransform
 					attributeName="transform"
 					begin="0s"
@@ -69,10 +86,16 @@
 				
      </g>
     
-    
+      <!-- ---------------------- --> 
+    <defs>
+    <pattern id="cir5" x="0" y="0" width="14" height="14"  >
+      <image xlink:href="mars.png" x="0" y="0" width="14" height="14">
+      </image>
+    </pattern>
+  </defs>
     <g id="mars">
 				<circle cx=550 cy=250 r=220 style="stroke: #fff; fill: transparent;"/>
-				<circle cx=770 cy=253 r=7 fill="red"/>
+				<circle cx=770 cy=253 r=7 style="fill: url(#cir5);"/>
 				<animateTransform
 					attributeName="transform"
 					begin="0s"
